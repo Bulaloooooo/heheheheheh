@@ -1,0 +1,305 @@
+@media only screen and (max-width: 600px ) {
+	
+	.buttonDiv{
+		margin-top: -5.5vw;
+	}
+	
+	.buttonColor{
+		width: 40vw;
+	}
+	
+	.buttonText{
+		font-size: 12px;
+		
+	}
+	.logopic{
+		height: 150px;
+		width: 350px;
+		top: 50%;
+	}
+	
+	.logodiv{
+		height: 50%;
+	}
+	
+	
+	/*First page*/
+	
+	.navLogo{
+		width: 200px;
+		height: 60px;
+		margin-top: 5px;
+		justify-content: center;
+	}
+	
+	.navbox{
+		width: 100%;
+		background-color: #113F67;
+		height: 70px;
+		position:absolute;
+		text-align: center;
+	}
+	
+	
+	.padds{
+		font-size: 15px;
+		margin-left:15px;
+		margin-right:15px;
+		color: 000;
+		margin-top: 20px;
+	}
+	
+	/*Contact Page*/
+	
+	.conText{
+		font-size: 6vw;
+		color: 000;
+		margin-left: 6vw;
+		margin-top: 10vw;
+		font-weight: bold;
+	}
+	
+	.navDiv{
+		width: 100%;
+		height: 100px;
+	}
+	
+	.picclass{
+		width: 10vw;
+		height: 10vw;
+		margin-left: 8vw;
+		margin-top: 6vw;
+		float: left;
+	}
+	
+	.pictext{
+		font-size: 3vw;
+		float: right;
+		margin-top: 9vw;
+		margin-right: 5vw;
+		text-align: center;
+		
+	}
+	
+	.pictext1{
+		font-size: 3vw;
+		float: left;
+		margin-top: 9vw;
+		margin-left: 5vw;
+		text-align: center;
+		
+	}
+	
+	.contactDivv{
+		width: 100%;
+		height: 20vw;
+	}
+	
+	.contactPics{
+		margin-right: 1vw;
+		width: 20vw;
+		height: 20vw;
+		float: left;
+	}
+	
+	.contactPics1{
+		margin-right: 5vw;
+		width: 20vw;
+		height: 20vw;
+		float: right;
+	}
+	.textcon{
+		width: 100%;
+		text-align: center;
+		float: right;
+		position: absolute;
+	}
+}
+
+@media only screen and (min-width: 610px) and (max-width: 1200px){
+	
+	.buttonDiv{
+		margin-top: -3vw;
+	}
+	
+	.buttonColor{
+		width: 40vw;
+	}
+	
+	.buttonText{
+		font-size: 12px;
+	}
+	
+	.logopic{
+		width: 550px;
+		height: 250px;
+		top: 50%;
+	}
+	
+	/*First Page*/
+	
+	.logodiv{
+		height: 50%;
+	}
+	.navLogo{
+		width: 90px;
+		height: 90px;
+		margin: 10 10;
+	}
+	.navbox{
+		width: 100%;
+		background-color: #113F67;
+		height: 105px;	
+	}
+}
+
+@media only screen and (min-width: 1200px){
+	
+	.buttonColor{
+		width: 20vw;
+		height: 3vw;
+		top: 50%;
+	}
+	
+	.buttonDiv{
+		margin-top: -1.5vw;
+	}
+	
+	.buttonText{
+		font-size: 20px;
+		margin-top: 0.8vw;
+	}
+	.logopic{
+		width: 600px;
+		height: 250px;
+		top: 50%;
+	}
+	
+	.logodiv{
+		height: 50%;
+	}
+	
+	/*First Page*/
+	.navLogo{
+		width: 400px;
+		height: 80px;
+		margin-left: 30px;
+		margin-top: 5px;
+		
+	}
+	
+	.imgbox{
+		width:100%;
+		height: 80px;
+	}
+	.navbox{
+		width: 100%;
+		background-color: #113F67;
+		height: 90px;	
+		position: absolute;
+		z-index: 1;
+	}
+	
+	.padds{
+		font-size: 20px;
+		margin-left: 40px;
+		margin-right: 40px;
+		color: 000;
+		margin-top: 20px;
+	}
+	
+	/*Contact page */
+	.navDiv{
+	width: 100%;
+	height: 150px;
+}
+}
+
+body{
+	font-family: "Times New Roman", Times, serif;
+	width: 100%;
+	height: auto;
+	margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.logopic{
+	z-index: 2;
+	text-align: center;
+	position: relative;
+	}
+	
+.logoDiv{
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	width: 100%;
+	z-index: 2;
+}
+
+.header{
+	width:100%;
+	height: 50%;
+}
+
+.upperBg{
+	width: 100%;
+	height: 50%;
+	z-index: -1;
+	position: absolute;
+}
+
+.upperPic{
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	position: absolute;
+}
+
+.vidv{
+	width:100%;
+	height: 50%;
+	object-fit: cover;
+}
+
+.buttonDiv{
+	width: 100%;
+	position: absolute;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+
+.buttonColor{
+	background-color:#87C0CD;
+	border: 3px solid black;
+}
+
+/*First Page*/
+
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+.navbox{
+	width: 100%;
+	background-color: #113F67;
+}
+.navvi{
+	text-align: center;
+	display: flex;
+	justify-content: center; 
+	list-style-type: none;
+	
+}
+
+
+/*Contact page*/
+
+.contactDiv{
+	width: 100%;
+}
